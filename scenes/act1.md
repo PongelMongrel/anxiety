@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AT ITO ANG KABALISA
+n: AT ITO ANG KATAKUTAN NYA
 
-n: _IKAW_ ANG KABALISA
+n: _IKAW_ ANG KATAKUTAN NYA
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -32,7 +32,7 @@ n: ANG TRABAHO MO AY PROTEKTAHAN ANG TAO MO SA *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: LAGOT, IKAW NA NGREREPLAY ITO AY LINALAGAY SILA *DANGER* NGAYON!
+n: LAGOT, IKAW NA NGREREPLAY ITO AY LINALAGAY SILA SA *DANGER* NGAYON!
 
 n: BILIS, BABALAAN MO SILA!
 
@@ -116,23 +116,23 @@ h: Ano daw???
 
 `bb({eyes:"normal"});`
 
-b: The story arc was about how you can *CHOOSE* to build a healthy collaboration with your fear,
+b: Ang kwento ay tungkol kung paano maaaring *PUMILI* upang bumuo ng isang malusog na pakikipagtulungan sa iyong takot,
 
 `bb({eyes:"normal_right"});`
 
-b: But replaying the game will give the same story, implying your *CHOICES* don't matter,
+b: Ngunit ang pag-ulit ng laro ay magbibigay ng parehong kuwento, na nagpapahiwatig ng iyong *CHOICES* hindi mahalaga,
 
 `bb({eyes:"narrow_eyebrow"});`
 
-b: Thus showing a contradiction between the game's message and mechanics,
+b: Sa gayon ay nagpapakita ng isang kontradiksyon sa pagitan ng mensahe ng laro at mekanika,
 
 `bb({eyes:"fear"});`
 
-b: Thus unraveling the fabric of this narrative universe,
+b: Tapos malalaman nila ang tela ng uniberso ng salaysay na ito,
 
 `bb({body:"fear"});`
 
-b: And then we'll--
+b: At kami  ay--
 
 (#act1_replay_end)
 
@@ -141,7 +141,7 @@ b: And then we'll--
 
 `bb({body:"panic"})`
 
-b: DIEEEEEEEEEEEEEEEEEEE
+b: MAMAMATAYYYYYYYYYYYYYYYYYYY
 
 ```
 bb({body:"normal", mouth:"normal", eyes:"normal"});
@@ -164,13 +164,13 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 hong({body:"0_sammich"});
 ```
 
-h: Okay let's get back into character.
+h: Okay bumalik na tayo sa storya.
 
 ```
 Game.clearText();
 ```
 
-n4: (LET _YOUR_ ANXIETY BLAH BLAH BLAH MOST SIMILAR TO WHAT _YOUR_ FEAR BLAH BLAH YOU KNOW THE DRILL)
+n4: (GAMITIN MO YUNG TAKOT-- HAY, ALAM MO NA ANONG GAGAWA MO, SIGE IKAW NA)
 
 ```
 sfx("squeak");
@@ -186,17 +186,17 @@ bb({body:"squeeze"});
 
 `hong({mouth:"0_neutral", eyes:"0_annoyed"})`
 
-h: Oh good, my wolf's back. Faaaaantastic.
+h: Hay, nandito nanaman ang lobo ko.
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: ANG TRABAHO MO AY PROTEKTAHAN ANG TAO MO SA *DANGER*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, THAT SANDWICH IS PUTTING THEM IN *DANGER* RIGHT NOW
+n: LAGOT, ANG SANDWICH NA YAN AY LINALAGAY SILA *DANGER* NGAYON!
 
-n: QUICK, WARN THEM!
+n: BILIS, BABALAAN MO SILA!
 
 ```
 sfx("squeak");
@@ -204,7 +204,7 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The danger is...
+b: Tao! Makinig ka! Ang manlalaro ay...
 
 `bb({body:"squeeze"})`
 
